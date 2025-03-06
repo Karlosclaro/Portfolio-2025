@@ -119,7 +119,6 @@ main {
 
 .apresentacao__conteudo__links__navegacao:hover {
   background-color: var(--cor-hover);
-  /* color: #000000; */
 }
 
 .apresentacao__imagem {
