@@ -10,8 +10,9 @@
   <div class="wrapper">
     <header class="cabecalho">
       <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
         <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
-        <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a> <!-- Novo link adicionado -->
+        <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
       </nav>
     </header>
     <main class="apresentacao">
@@ -20,14 +21,23 @@
         <p class="apresentacao__conteudo__texto">Olá! Sou Carlos Claro, desenvolvedor Front-end com especialidade em REACT, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
         <div class="apresentacao__conteudo__links">
           <h2 class="apresentacao__conteudo__subtitulo">Acesse minhas redes:</h2>
-          <a class="apresentacao__conteudo__links__link" href="https://www.instagram.com/carlosklaro/"> <img src="/assets/instagram.png" alt="botao instagram"> Instagram</a>
-          <a class="apresentacao__conteudo__links__link" href="https://github.com/Karlosclaro"> <img src="/assets/github.png" alt="botao github"> GitHub</a>
-          <a class="apresentacao__conteudo__links__link" href="https://www.linkedin.com/in/carlos-roberto-claro/"> <img src="/assets/linkedin.png" alt="botao LinkedIn"> LinkedIn</a>
+          <a class="apresentacao__conteudo__links__navegacao" href="https://www.instagram.com/carlosklaro/"> <img src="/assets/instagram.png" alt="botao instagram"> Instagram</a>
+          <a class="apresentacao__conteudo__links__navegacao" href="https://github.com/Karlosclaro"> <img src="/assets/github.png" alt="botao github"> GitHub</a>
+          <a class="apresentacao__conteudo__links__navegacao" href="https://www.linkedin.com/in/carlos-roberto-claro/"> <img src="/assets/linkedin.png" alt="botao LinkedIn"> LinkedIn</a>
         </div>
       </section>
-      <img class="minhafoto" src="/assets/Karlos notebo b&W.jpeg" alt="Foto de Carlos Claro olhando para um notebook">
+      <img class="apresentacao__imagem" src="/assets/Karlos notebo b&W.jpeg" alt="Foto de Carlos Claro olhando para um notebook">
     </main>
     <footer class="rodape"><p>Desenvolvido por Karlos Claro.</p></footer>
+
+    <!-- Botões para mudar o esquema de cores -->
+    <div class="color-buttons">
+        <button onclick="changeColorScheme('scheme1')">Cores 1</button>
+        <button onclick="changeColorScheme('scheme2')">Cores 2</button>
+        <button onclick="changeColorScheme('scheme3')">Cores 3</button>
+    </div>
+
+    <script src="script.js"></script>
   </div>
 </body>
 </html>
