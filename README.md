@@ -24,6 +24,10 @@ Arquivo de estilos que define a aparência e o layout das páginas, incluindo va
 
 Arquivo JavaScript que contém a função para alterar o esquema de cores dinamicamente, modificando as variáveis CSS definidas no `:root`.
 
+## 🖼️ Resultado Final
+
+![Screenshot do Site](./assets/Capture%20da%20pagina%20porfolio%202025.PNG)
+
 ## 🏷️ Hashtags
 
 #HTML #CSS #JavaScript #FrontEnd #WebDevelopment #Portfolio #ResponsiveDesign #ColorScheme #CarlosClaro
